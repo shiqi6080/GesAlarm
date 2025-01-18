@@ -1,7 +1,7 @@
 # 基于端侧动作识别的强制唤醒闹钟
 本项目立足于生活实际问题进行设计，旨在制作一款通过完成相应动作任务关闭的强制唤醒闹钟，帮助用户迅速清醒。其中，动作识别功能由卷积神经网络完成，利用高效的Edge - AI框架完成了其在STM32上的部署，实现端侧推理。此外，闹钟还具备蓝牙功能，可拓展性较高。
 
-![效果图](/alarm.png)
+![效果图](/alarm.png){width=50%}
 
 ## 鸣谢
 - 本项目受开源项目[STM32_CyberryPotter_ElectromagicWand_Basic_Project](https://github.com/Hillplain/STM32_CyberryPotter_ElectromagicWand_Basic_Project)启发，并基于其与开源项目[NNOM](https://github.com/majianjia/nnom)开发，感谢相关开发者做出的贡献。
@@ -43,7 +43,7 @@
 
 #### 硬件连接
 请根据PCB上的丝印焊接，效果如下：
-![硬件连接图](/board.png)
+![硬件连接图](/board.png){width=50%}
 >蓝牙模块插在排母上，电源管理模块未在PCB上画出，需使用导线连接至PCB预留焊盘。
 
 具体连接位置:
@@ -61,13 +61,13 @@
 
 - Python环境：
 
-    创建一个python3.9环境  `conda create --name py39_env python=3.9`并安装项目依赖 `pip install -r requirements.txt`
+    创建一个Python3.9环境  `conda create --name py39_env python=3.9`并安装项目依赖 `pip install -r requirements.txt`
 
 - Keil环境：
   
   keil版本：keil5
   
-  编译器版本:Arm Compiler6.7
+  编译器版本：Arm Compiler6.7
   
 - 可能存在的问题
     
